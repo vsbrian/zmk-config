@@ -93,13 +93,13 @@
       label = "Num Word";
       bindings = <
 // ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮    ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮
-     &trans                   &kp NUMBER_7             &kp NUMBER_8             &kp NUMBER_9             &trans                        &trans                   &trans                   &trans                   &trans                   &trans
+     &trans                   &kp NUMBER_7             &kp NUMBER_8             &kp NUMBER_9             &trans                        &trans                   &kp SLASH                &hm_r RCTRL ASTERISK     &trans                   &trans
 // ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-     &hm_l LCTRL NUMBER_0     &hm_l LALT NUMBER_4      &mm_5_save               &hm_l LSHFT NUMBER_6     &kp NUMBER_0                  &kp DOLLAR               &kp PLUS                 &kp SLASH                &hm_r RCTRL ASTERISK     &trans
+     &hm_l LCTRL NUMBER_0     &hm_l LALT NUMBER_4      &mm_5_save               &hm_l LSHFT NUMBER_6     &kp NUMBER_0                  &kp DOLLAR               &kp PLUS                 &hm_r RCTRL ASTERISK     &trans                   &trans
 // ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-     &trans                   &mm_1_cut                &mm_2_copy               &kp NUMBER_3             &trans                        &kp PERCENT              &kp MINUS                &trans                   &trans                   &trans
+     &trans                   &mm_1_cut                &mm_2_copy               &kp NUMBER_3             &trans                        &kp PERCENT              &kp MINUS                &kp COMMA                &mm_dot_colon            &trans
 // ╰────────────────────────┴────────────────────────┴────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┴────────────────────────╯
-                                                       &ltog LGUI NUM_WORD      &trans                   &trans                        &trans                   &hm_r RGUI EQUAL         &trans
+                                                       &ltog LGUI NUM_WORD      &trans                   &trans                        &mm_bspc_del             &kp EQUAL                &trans
 //                                                   ╰────────────────────────┴────────────────────────┴────────────────────────╯    ╰────────────────────────┴────────────────────────┴────────────────────────╯
       >;
       sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp LEFT RIGHT>;
