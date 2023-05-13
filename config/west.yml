@@ -11,5 +11,9 @@ manifest:
       remote: infused-kim
       revision: testing/urob-changes
       import: app/west.yml
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
   self:
     path: config
