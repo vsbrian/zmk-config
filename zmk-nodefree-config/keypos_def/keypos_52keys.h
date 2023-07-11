@@ -3,7 +3,7 @@
   │  0   1   2   3   4   5     │      6   7   8   9  10  11 │ │ LT5 LT4 LT3 LT2 LT1 LT0     │     RT0 RT1 RT2 RT3 RT4 RT5 │
   │ 12  13  14  15  16  17     │     18  19  20  21  22  23 │ │ LM5 LM4 LM3 LM2 LM1 LM0     │     RM0 RM1 RM2 RM3 RM4 RM5 │
   │ 24  25  26  27  28  29  30 │ 31  32  33  34  35  36  37 │ │ LB5 LB4 LB3 LB2 LB1 LB0     │     RB0 RB1 RB2 RB3 RB4 RB5 │
-  │ 38  39  40  41  42  43  44 │ 45  46  47  48  49  50  52 │ │ LF5 LF4 LF3 LF2 LF1 LF0 LEC │ REC RF0 RF1 RF2 RF3 RF4 RF5 │
+  │ 38  39  40  41  42  43  44 │ 45  46  47  48  49  50  52 │ │ LH5 LH4 LH3 LH2 LH1 LH0 LEC │ REC RH0 RH1 RH2 RH3 RH4 RH5 │
   ╰────────────────────────────│────────────────────────────  ╰─────────────────────────────│────────────────────────────
 */
 
@@ -44,36 +44,29 @@
 #define LB4 25
 #define LB5 24
 
-#define RB0 30  // right-bottom row
-#define RB1 31
-#define RB2 32
-#define RB3 33
-#define RB4 34
-#define RB5 35
+#define LEC 30  // left encoder key
+#define REC 31  // right encoder key
 
-#define LF0 41  // left-floor row
-#define LF1 40
-#define LF2 39
-#define LF3 38
-#define LF4 37
-#define LF5 36
+#define RB0 32  // right-bottom row
+#define RB1 33
+#define RB2 34
+#define RB3 35
+#define RB4 36
+#define RB5 37
 
-#define LEC 42  // left encoder key
-#define REC 43  // right encoder key
+#define LH0 43  // left thumb keys
+#define LH1 42
+#define LH2 41
+#define LH3 40
+#define LH3 39
+#define LH3 38
 
-#define RF0 44  // right-floor row
-#define RF1 45
-#define RF2 46
-#define RF3 47
-#define RF4 48
-#define RF5 49
+#define LEC1 44  // left encoder key
+#define REC1 45  // right encoder key
 
-#define LH0 53  // left thumb keys
-#define LH1 52
-#define LH2 51
-#define LH3 50
-
-#define RH0 54  // right thumb keys
-#define RH1 55
-#define RH2 56
-#define RH3 57
+#define RH0 46  // right thumb keys
+#define RH1 47
+#define RH2 48
+#define RH3 49
+#define RH4 50
+#define RH5 51
