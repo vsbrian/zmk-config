@@ -20,6 +20,21 @@
         };
 
         /*
+         * Shifted UP Question
+         *
+         * Usage: &mm_up_QUESTION
+         * Tap: Backspace
+         * Shift-Tap: Delete
+         */
+        mm_up_QUESTION: up_QUESTION {
+            compatible = "zmk,behavior-mod-morph";
+            label = "UP_QUESTION";
+            #binding-cells = <0>;
+            bindings = <&kp UP>, <&kp QUESTION>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        /*
          * Shifted Backspace deletes + Layer Tap
          *
          * Usage: &mm_bspc_del_layer
